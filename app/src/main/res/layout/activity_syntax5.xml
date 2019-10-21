@@ -12,7 +12,7 @@
         android:layout_width="227dp"
         android:layout_height="30dp"
         android:layout_marginTop="108dp"
-        android:text="@string/syntax_service"
+        android:text="@string/syntax_content"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

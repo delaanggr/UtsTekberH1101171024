@@ -8,35 +8,40 @@
     <string name="link_materi">Sumber Materi</string>
     <string name="textview">TextView</string>
     <string name="contoh_syntax">Contoh Syntax</string>
-    <string name="materi_intent">Intent adalah objek perpesanan yang bisa Anda gunakan untuk meminta tindakan dari komponen aplikasi. Meskipun intent mempermudah komunikasi antar komponen dengan beberapa cara, ada tiga kasus penggunaan yang mendasar:
-    <br>Memulai aktivitas</br>
-        <br>Activity merepresentasikan satu layar dalam aplikasi. Anda bisa memulai instance baru Activity dengan meneruskan Intent ke startActivity(). Intent menjelaskan aktivitas yang akan dimulai dan membawa data yang diperlukan.</br>
-    <br>Memulai layanan</br>
-        <br>
-            Service Adalah komponen yang melakukan operasi di latar belakang tanpa antarmuka pengguna.
-        </br>
-        <br>Mengirimkan siaran</br>
-        <br>Siaran adalah pesan yang bisa diterima aplikasi apa saja. Sistem mengirimkan beragam siaran untuk peristiwa sistem, seperti saat sistem melakukan booting atau perangkat mulai mengisi daya.</br>
+    <string name="materi_intent">Intent adalah objek perpesanan yang bisa Anda gunakan untuk meminta tindakan dari komponen aplikasi. Meskipun intent mempermudah komunikasi antar komponen dengan beberapa cara, ada tiga kasus penggunaan yang mendasar:\n\n
+        1.Memulai aktivitas\n
+        Activity merepresentasikan satu layar dalam aplikasi. Anda bisa memulai instance baru Activity dengan meneruskan Intent ke startActivity(). Intent menjelaskan aktivitas yang akan dimulai dan membawa data yang diperlukan.\n\n
+    2.Memulai layanan\n
+            Service Adalah komponen yang melakukan operasi di latar belakang tanpa antarmuka pengguna.\n\n
+        3.Mengirimkan siaran\n
+        Siaran adalah pesan yang bisa diterima aplikasi apa saja. Sistem mengirimkan beragam siaran untuk peristiwa sistem, seperti saat sistem melakukan booting atau perangkat mulai mengisi daya.\n
     </string>
 
     <string name="aktifitas">Activity adalah sebuah komponen aplikasi yang menyediakan layar yang digunakan pengguna untuk berinteraksi guna melakukan sesuatu, misalnya memilih nomor ponsel, mengambil foto, mengirim email, atau menampilkan peta. Tiap aktivitas diberi sebuah jendela untuk menggambar antarmuka penggunanya. Jendela ini biasanya mengisi layar, namun mungkin lebih kecil daripada layar dan mengambang di atas jendela lain.
-        Sebuah aplikasi biasanya terdiri atas beberapa aktivitas yang terikat secara longgar satu sama lain.
-        Biasanya, satu aktivitas dalam aplikasi ditetapkan sebagai aktivitas "utama", yang ditampilkan kepada pengguna saat membuka aplikasi untuk pertama kali. Tiap aktivitas kemudian bisa memulai aktivitas lain untuk melakukan berbagai tindakan. Tiap kali aktivitas baru dimulai, aktivitas sebelumnya akan dihentikan, namun sistem mempertahankan aktivitas dalam sebuah tumpukan ("back-stack"). Bila sebuah aktivitas baru dimulai,
-        aktivitas itu akan didorong ke atas back-stack dan mengambil fokus pengguna. Back-stack mematuhi mekanisme dasar tumpukan "masuk terakhir, keluar pertama", jadi, bila pengguna selesai dengan aktivitas saat ini dan menekan tombol Kembali, aktivitas akan dikeluarkan dari tumpukan (dan dimusnahkan) dan aktivitas sebelumnya akan dilanjutkan. (Back-stack dibahas selengkapnya dalam dokumen Tugas dan Back-Stack.)
+        Sebuah aplikasi biasanya terdiri atas beberapa aktivitas yang terikat secara longgar satu sama lain.\n
+        Biasanya, satu aktivitas dalam aplikasi ditetapkan sebagai aktivitas "utama", yang ditampilkan kepada pengguna saat membuka aplikasi untuk pertama kali. Tiap aktivitas kemudian bisa memulai aktivitas lain untuk melakukan berbagai tindakan. Tiap kali aktivitas baru dimulai, aktivitas sebelumnya akan dihentikan, namun sistem mempertahankan aktivitas dalam sebuah tumpukan ("back-stack").\n
+        Bila sebuah aktivitas baru dimulai,aktivitas itu akan didorong ke atas back-stack dan mengambil fokus pengguna. Back-stack mematuhi mekanisme dasar tumpukan "masuk terakhir, keluar pertama", jadi, bila pengguna selesai dengan aktivitas saat ini dan menekan tombol Kembali, aktivitas akan dikeluarkan dari tumpukan (dan dimusnahkan) dan aktivitas sebelumnya akan dilanjutkan. (Back-stack dibahas selengkapnya dalam dokumen Tugas dan Back-Stack.)
 </string>
-    <string name="materi_service">Service adalah sebuah komponen aplikasi yang bisa melakukan operasi yang berjalan lama di latar belakang dan tidak menyediakan antarmuka pengguna. Komponen aplikasi lain bisa memulai layanan dan komponen aplikasi tersebut akan terus berjalan di latar belakang walaupun pengguna beralih ke aplikasi lain. Selain itu, komponen bisa mengikat ke layanan untuk berinteraksi dengannya dan bahkan melakukan komunikasi antarproses (IPC). Misalnya, layanan mungkin menangani transaksi jaringan, memutar musik, melakukan file I/O, atau berinteraksi dengan penyedia materi dari latar belakang
-        <br>Inilah tiga tipe layanan yang berbeda:</br>
-        <br>Latar depan</br>
-        <br>Layanan latar depan melakukan beberapa operasi yang terlihat oleh pengguna</br>
-        <br>Latar belakang</br>
-        <br>Layanan latar belakang melakukan operasi yang tidak terlihat secara langsung oleh pengguna.</br>
-        <br>Terikat</br>
-        <br>Layanan terikat menawarkan antarmuka klien-server yang memungkinkan komponen berinteraksi dengan layanan tersebut, mengirim permintaan, mendapatkan hasil dan bahkan melakukannya pada sejumlah proses dengan komunikasi antarproses (IPC). </br>
+    <string name="materi_service">Service adalah sebuah komponen aplikasi yang bisa melakukan operasi yang berjalan lama di latar belakang dan tidak menyediakan antarmuka pengguna.\n
+        Komponen aplikasi lain bisa memulai layanan dan komponen aplikasi tersebut akan terus berjalan di latar belakang walaupun pengguna beralih ke aplikasi lain. Selain itu, komponen bisa mengikat ke layanan untuk berinteraksi dengannya dan bahkan melakukan komunikasi antarproses (IPC).\n
+        Misalnya, layanan mungkin menangani transaksi jaringan, memutar musik, melakukan file I/O, atau berinteraksi dengan penyedia materi dari latar belakang.\n
+        Inilah tiga tipe layanan yang berbeda:\n\n
+        1.Latar depan\n
+        Layanan latar depan melakukan beberapa operasi yang terlihat oleh pengguna\n\n
+        2.Latar belakang\n
+        Layanan latar belakang melakukan operasi yang tidak terlihat secara langsung oleh pengguna.\n\n
+        3.Terikat\n
+        Layanan terikat menawarkan antarmuka klien-server yang memungkinkan komponen berinteraksi dengan layanan tersebut, mengirim permintaan, mendapatkan hasil dan bahkan melakukannya pada sejumlah proses dengan komunikasi antarproses (IPC).
 </string>
-    <string name="materi_broadcast">Aplikasi Android dapat mengirim atau menerima pesan siaran dari sistem Android dan aplikasi Android lainnya, mirip dengan pola desain penerbit-berlangganan. Siaran ini dikirim ketika suatu peristiwa menarik terjadi. Misalnya, sistem Android mengirimkan siaran ketika berbagai peristiwa sistem terjadi, seperti ketika sistem dinyalakan atau perangkat mulai mengisi daya. Aplikasi juga dapat mengirim siaran khusus, misalnya, untuk memberi tahu aplikasi lain tentang sesuatu yang mungkin mereka minati (misalnya, beberapa data baru telah diunduh).
+    <string name="materi_broadcast">Aplikasi Android dapat mengirim atau menerima pesan siaran dari sistem Android dan aplikasi Android lainnya, mirip dengan pola desain penerbit-berlangganan.\n
+        Siaran ini dikirim ketika suatu peristiwa menarik terjadi. Misalnya, sistem Android mengirimkan siaran ketika berbagai peristiwa sistem terjadi, seperti ketika sistem dinyalakan atau perangkat mulai mengisi daya.\n
+        Aplikasi juga dapat mengirim siaran khusus, misalnya, untuk memberi tahu aplikasi lain tentang sesuatu yang mungkin mereka minati (misalnya, beberapa data baru telah diunduh).\n
         Aplikasi dapat mendaftar untuk menerima siaran tertentu. Ketika siaran dikirim, sistem secara otomatis merutekan siaran ke aplikasi yang telah berlangganan untuk menerima jenis siaran tertentu.</string>
-    <string name="materi_content">Penyedia konten dapat membantu aplikasi mengelola akses ke data yang disimpan dengan sendirinya, yang disimpan oleh aplikasi lain, dan memberikan cara untuk membagikan data ke aplikasi lain. Mereka membungkus data, dan menyediakan mekanisme untuk mendefinisikan keamanan data. Penyedia materi adalah antarmuka standar yang menghubungkan data dalam satu proses dengan kode yang berjalan dalam proses lain. Mengimplementasikan penyedia konten memiliki banyak keuntungan. Yang terpenting, Anda dapat mengonfigurasi penyedia konten agar memungkinkan aplikasi lain mengakses dan memodifikasi data aplikasi
-    Gunakan penyedia konten jika berencana membagikan data. Jika tidak berencana membagikan data, Anda masih bisa menggunakannya karena penyedia konten tersebut menyediakan abstraksi yang bagus, tetapi Anda tidak harus melakukannya.
+    <string name="materi_content">Penyedia konten dapat membantu aplikasi mengelola akses ke data yang disimpan dengan sendirinya, yang disimpan oleh aplikasi lain, dan memberikan cara untuk membagikan data ke aplikasi lain.
+        Mereka membungkus data, dan menyediakan mekanisme untuk mendefinisikan keamanan data.\n
+        Penyedia materi adalah antarmuka standar yang menghubungkan data dalam satu proses dengan kode yang berjalan dalam proses lain. Mengimplementasikan penyedia konten memiliki banyak keuntungan.Yang terpenting, Anda dapat mengonfigurasi penyedia konten agar memungkinkan aplikasi lain mengakses dan memodifikasi data aplikasi
+    Gunakan penyedia konten jika berencana membagikan data.\n
+        Jika tidak berencana membagikan data, Anda masih bisa menggunakannya karena penyedia konten tersebut menyediakan abstraksi yang bagus, tetapi Anda tidak harus melakukannya.
     </string>
     <string name="syntax_intent">Contoh Syntax Intent</string>
     <string name="cth_intent">ini contoh syntax intent</string>
