@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar3"
+    tools:context=".Activity6">
+
+    <Button
+        android:id="@+id/BtnLink"
+        android:layout_width="133dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="56dp"
+        android:background="#88CBEB"
+        android:onClick="link5"
+        android:text="@string/link_materi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="326dp"
+        android:layout_height="539dp"
+        android:layout_marginTop="48dp"
+        android:background="#FFFEFF"
+        android:text="@string/materi_broadcast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnSyntax6"
+        android:layout_width="133dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="56dp"
+        android:background="#88CBEB"
+        android:text="@string/contoh_syntax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
